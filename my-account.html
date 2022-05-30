@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <title>My Account - Yard Sale</title>
+    <style>
+      @media (max-width: 650px) {
+        .form-container{
+            height: 100%
+        }
+        .form {
+          height: 100%;
+          justify-content: space-between;
+        }
+       
+        .title{
+            margin-top: 16px;
+        }
+      } 
+          
+      
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <div class="form-container">
+            <h1 class="title ">My account</h1>
+            <form action='/' method="post" class="form">
+                <div>
+                    <label for="name" class="label">Name</label>
+                    <p class="value">John Doe</p>
+                    <label for="email" class="label">Email address</label>
+                    <p class="value">john@doe.com</p>
+                    <label for="password" class="label">Password</label>
+                    <p class="value">********</p>
+                </div>
+                 <input type="submit" value="Edit" class="secondary-button login-button">               
+                
+            </form>
+        
+           
+
+        </div>
+
+    </div>
+</body>
+
+</html>
